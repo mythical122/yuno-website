@@ -238,7 +238,8 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 @media (max-width: 760px) {
   html { scroll-padding-top: 78px; }
   .intro-screen { justify-content: space-between; padding: 66px 16px 48px; }
-  .intro-copy { margin-top: 0; font-size: 27px; line-height: 1.1; }
+  .intro-copy { margin-top: 0; font-size: clamp(24px, 7.4vw, 28px); line-height: 1.3; }
+  .intro-copy p + p { margin-top: 4px; }
   .intro-bottom { position: relative; right: auto; bottom: auto; left: auto; gap: 10px; }
   .intro-coordinate { right: 12px; bottom: 12px; letter-spacing: 1.5px; }
   .page-width { width: calc(100% - 42px); }
