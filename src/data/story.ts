@@ -32,18 +32,18 @@ export const story: StoryEntry[] = [
 ]
 
 export const memories: Memory[] = [
-  { id: 1, title: 'Portrait 01', caption: 'Add a caption for this photo.', date: 'PHOTO 01', image: '/images/yuno11.jpg', category: 'Her' },
-  { id: 2, title: 'Portrait 02', caption: 'Add a caption for this photo.', date: 'PHOTO 02', image: '/images/yuno12.jpg', category: 'Her' },
-  { id: 3, title: 'Portrait 03', caption: 'Add a caption for this photo.', date: 'PHOTO 03', image: '/images/yuno13.jpg', category: 'Her' },
-  { id: 4, title: 'Portrait 04', caption: 'Add a caption for this photo.', date: 'PHOTO 04', image: '/images/yuno14.jpg', category: 'Her' },
-  { id: 5, title: 'Portrait 05', caption: 'Add a caption for this photo.', date: 'PHOTO 05', image: '/images/yuno15.jpg', category: 'Her' },
-  { id: 6, title: 'Portrait 06', caption: 'Add a caption for this photo.', date: 'PHOTO 06', image: '/images/yuno16.jpg', category: 'Her' },
-  { id: 7, title: 'Portrait 07', caption: 'Add a caption for this photo.', date: 'PHOTO 07', image: '/images/yuno17.jpg', category: 'Her' },
-  { id: 8, title: 'Portrait 08', caption: 'Add a caption for this photo.', date: 'PHOTO 08', image: '/images/yuno18.jpg', category: 'Her' },
-  { id: 9, title: 'Illustration 01', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 01', image: '/images/memories/yuno-dee1.png', category: 'Us' },
-  { id: 10, title: 'Illustration 02', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 02', image: '/images/memories/yuno-dee2.png', category: 'Us' },
-  { id: 11, title: 'Illustration 03', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 03', image: '/images/memories/yuno-dee3.png', category: 'Us' },
-  { id: 12, title: 'Illustration 04', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 04', image: '/images/memories/yuno-dee4.png.jpg', category: 'Us' },
+  { id: 1, title: 'Portrait 01', caption: 'Add a caption for this photo.', date: 'PHOTO 01', image: 'images/yuno11.jpg', category: 'Her' },
+  { id: 2, title: 'Portrait 02', caption: 'Add a caption for this photo.', date: 'PHOTO 02', image: 'images/yuno12.jpg', category: 'Her' },
+  { id: 3, title: 'Portrait 03', caption: 'Add a caption for this photo.', date: 'PHOTO 03', image: 'images/yuno13.jpg', category: 'Her' },
+  { id: 4, title: 'Portrait 04', caption: 'Add a caption for this photo.', date: 'PHOTO 04', image: 'images/yuno14.jpg', category: 'Her' },
+  { id: 5, title: 'Portrait 05', caption: 'Add a caption for this photo.', date: 'PHOTO 05', image: 'images/yuno15.jpg', category: 'Her' },
+  { id: 6, title: 'Portrait 06', caption: 'Add a caption for this photo.', date: 'PHOTO 06', image: 'images/yuno16.jpg', category: 'Her' },
+  { id: 7, title: 'Portrait 07', caption: 'Add a caption for this photo.', date: 'PHOTO 07', image: 'images/yuno17.jpg', category: 'Her' },
+  { id: 8, title: 'Portrait 08', caption: 'Add a caption for this photo.', date: 'PHOTO 08', image: 'images/yuno18.jpg', category: 'Her' },
+  { id: 9, title: 'Illustration 01', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 01', image: 'images/memories/yuno-dee1.png', category: 'Us' },
+  { id: 10, title: 'Illustration 02', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 02', image: 'images/memories/yuno-dee2.png', category: 'Us' },
+  { id: 11, title: 'Illustration 03', caption: 'An illustrated version of us.', date: 'ILLUSTRATION 03', image: 'images/memories/yuno-dee3.png', category: 'Us' },
+  { id: 12, title: 'Illustration 04', caption: 'An illustrated version of us.', date: 'PHOTO 04', image: 'images/memories/yuno-dee4.png.jpg', category: 'Us' },
 ]
 
 export const constellation = [
@@ -55,15 +55,15 @@ export const constellation = [
 ]
 
 export const polaroids = [
-  { image: '/images/polaroids/yuno1.jpg', caption: 'Photo 01' },
-  { image: '/images/polaroids/yuno2.jpg', caption: 'Photo 02' },
-  { image: '/images/polaroids/yuno3.jpg', caption: 'Photo 03' },
-  { image: '/images/polaroids/yuno4.jpg', caption: 'Photo 04' },
-  { image: '/images/polaroids/yuno5.jpg', caption: 'Photo 05' },
-  { image: '/images/polaroids/yuno6.jpg', caption: 'Photo 06' },
-  { image: '/images/polaroids/yuno7.jpg', caption: 'Photo 07' },
-  { image: '/images/polaroids/yuno8.jpg', caption: 'Photo 08' },
-  { image: '/images/polaroids/yuno9.jpg', caption: 'Photo 09' },
+  { image: 'images/polaroids/yuno1.jpg', caption: 'Photo 01' },
+  { image: 'images/polaroids/yuno2.jpg', caption: 'Photo 02' },
+  { image: 'images/polaroids/yuno3.jpg', caption: 'Photo 03' },
+  { image: 'images/polaroids/yuno4.jpg', caption: 'Photo 04' },
+  { image: 'images/polaroids/yuno5.jpg', caption: 'Photo 05' },
+  { image: 'images/polaroids/yuno6.jpg', caption: 'Photo 06' },
+  { image: 'images/polaroids/yuno7.jpg', caption: 'Photo 07' },
+  { image: 'images/polaroids/yuno8.jpg', caption: 'Photo 08' },
+  { image: 'images/polaroids/yuno9.jpg', caption: 'Photo 09' },
 ]
 
 export const futureList = ['More sunsets.', 'More random trips.', 'More late-night conversations.', 'More stupid jokes.', 'More photographs.', 'More new places.', 'More memories.', 'More us.']

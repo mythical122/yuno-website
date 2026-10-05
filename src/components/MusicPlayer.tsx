@@ -9,7 +9,7 @@ export function MusicPlayer({ onSecret }: { onSecret?: () => void }) {
 
   useEffect(() => {
     const controller = new AbortController()
-    fetch('/audio/yuno1.mpeg', { method: 'HEAD', signal: controller.signal })
+    fetch('audio/yuno1.mpeg', { method: 'HEAD', signal: controller.signal })
       .then((response) => {
         const type = response.headers.get('content-type') ?? ''
         if (!response.ok || (!type.startsWith('audio/') && type !== 'video/mpeg')) setUnavailable(true)
@@ -41,7 +41,7 @@ export function MusicPlayer({ onSecret }: { onSecret?: () => void }) {
 
   return (
     <div className="music-player">
-      <audio ref={audioRef} src="/audio/yuno1.mpeg" preload="none" onCanPlay={() => setUnavailable(false)} onError={() => setUnavailable(true)} onEnded={() => setPlaying(false)} />
+      <audio ref={audioRef} src="audio/yuno1.mpeg" preload="none" onCanPlay={() => setUnavailable(false)} onError={() => setUnavailable(true)} onEnded={() => setPlaying(false)} />
       <div className="record-art"><button className="record-label" onClick={onSecret} aria-label="A small note on the record"><span>Y + D</span></button><span className={`record-groove${playing ? ' is-playing' : ''}`} /></div>
       <div className="music-info"><span className="eyebrow">A SONG FOR US</span><h3>{unavailable ? 'Our song is ready' : 'Our soundtrack'}</h3><p>{unavailable ? 'Could not load /public/audio/yuno1.mpeg' : 'A little music, whenever you want it.'}</p>
         <div className="sound-wave" aria-hidden="true">{Array.from({ length: 22 }, (_, index) => <i key={index} style={{ '--bar': `${9 + ((index * 17) % 19)}px` } as CSSProperties} />)}</div>
